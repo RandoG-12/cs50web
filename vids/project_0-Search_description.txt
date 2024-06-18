@@ -1,0 +1,8 @@
+Timestamps
+Requirement 1: 00:25
+Requirement 2: 00:54
+Requirement 3: 01:28
+Requirement 4: 01:54
+Requirement 5: 03:01
+Requirement 6: 03:20
+Requirement 7: 03:42
