@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <title>Commerce</title>
+        <style>
+            body {
+                background-color: #212529;
+                color: #dee2e6;
+                font-family: 'Roboto', Arial, sans-serif;;
+                font-size: large;
+            }
+            ol>li{
+                margin-top: 2vh;
+            }
+        </style>
+    </Head>
+    <body>
+        <h1>Commerce Project Script</h1>
+        <p>Complete the implementation of your auction site. You must fulfill the following requirements:</p>
+        <ol>
+            <li><strong>Models</strong>
+                <ul><li>At least 3 models: listings, bids, and comments</li></ul>
+            </li>
+            <li><strong>Create Listing (Logged in)</strong>
+                <ul>
+                    <li>Required fields: title, description, starting bid. </li>
+                    <li>Optional fields: image URL, category </li>
+                </ul>
+            </li>
+            <li><strong>Active Listings Page (all visitors)</strong>
+                <ul>
+                    <li>Default route showing at least: title, description, current price, photo if present</li>
+                </ul>
+            </li>
+            <li><strong>Listing Page  (how to see inactive listings????)</strong>
+                <ul>
+                    <li>(all visitors): Each listing has link to full details page</li>
+                    <li>(Logged in): add/remove listing from their “Watchlist.”</li>
+                    <li>(Logged in): Bid on the item.  Bid >= starting bid, Bid > other bids, otherwise error.</li>
+                    <li>(Logged in, listing creator): “close” the auction, highest bidder wins, auction becomes inactive</li>
+                    <li>(Logged in, listing winner): listing shows they won.</li>
+                    <li>(Logged in): add comments to listing page. Page shows all comments for listing.</li>
+                </ul>
+            </li>
+            <li><strong>Watchlist</strong>
+                <ul><li>(Logged in): visit Watchlist, each watched item has link to listing</li></ul>
+            </li>
+            <li><strong>Categories</strong>
+                <ul>
+                    <li>(all visitors): page with all listing categories, links to active listings in that category </li>
+                </ul>
+            </li>
+            <li><strong>Django Admin Interface</strong>
+                <ul><li>view, add, edit, and delete any listings, comments, and bids made on the site.</li></ul>
+            </li>
+        </ol>
+    </body>
+</html>
