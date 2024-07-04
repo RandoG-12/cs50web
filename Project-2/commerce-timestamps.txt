@@ -1,0 +1,54 @@
+CS50 Web Commerce Project DEMO
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Timestamps for requirements:
+
+Req	Time	Description
+===	====	===========
+1.	0:15	Active Listings Page (all visitors)
+			- Default route showing at least: title, 
+			description, current price, photo 
+			if present
+
+2.	0:27	Create Listing (Logged in)
+			- Required fields: title, description, 
+			starting bid
+				
+			- Optional fields: image URL, category
+
+3.	1:23	Listing Page
+			- (all visitors): Each listing has link 
+			to full details page
+							
+			- (Logged in): Bid on the item 
+			Bid GREATER THAN OR EQUAL to starting bid, 
+			Bid GREATER THAN other bids, 
+			otherwise error
+				
+			- (Logged in, listing creator): 
+			“close” the auction, 
+			highest bidder wins, 
+			auction becomes inactive
+			
+			- (Logged in, listing winner): 
+			listing shows they won.
+			
+			- (Logged in): add comments to listing page 
+			Page shows all comments for listing
+
+4.	2:58	Watchlist (Logged in)
+			- add/remove listing from their “Watchlist”
+			- visit Watchlist, each watched item has 
+			link to listing
+
+5.	3:26 	Categories (all visitors)
+			- page with all listing categories, links to 
+			active listings in that category
+
+6.	3:52 	Models
+			- at least 3 models: listings, bids, and 
+			comments
+			  
+7.	4:09 	Django Admin Interface
+			- view, add, edit, and delete any listings, 
+			comments, and bids made on the site
